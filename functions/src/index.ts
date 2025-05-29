@@ -17,4 +17,4 @@ export const addmessage = onRequest(async (req, res) => {
   res.json({result: `Message with ID: xxx added.`});
   // NOTE: The Firestore part is commented out in the default example,
   // but the onRequest and logger usage are usually there.
-}); // <-- Ici on utilise 'onRequest'
+}); 
